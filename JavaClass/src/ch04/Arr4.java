@@ -10,6 +10,7 @@ public class Arr4 {
 		// 배열에서 하나씩 추출하여 변수에 넣고 변수 값을 출력
 		for (int i : a) {
 			System.out.println(i);
+			
 		}
 	}
 }
