@@ -7,8 +7,10 @@ public class VarArr1 {
 			for (int j =0; j <score[i].length; j++) {
 				System.out.print(score[i][j]+"\t");
 				sum += score[i][j];
+				
 			}
-			System.out.println("합계 : " + sum);
+			
+			System.out.print("합계 : " + sum);
 			sum = 0;
 		}
 	}
