@@ -7,12 +7,9 @@ public class ShapeEx {
 		shape[0] = new Circle();
 		shape[1] = new Triangle();
 		shape[2] = new Retangle();
-		
+
 		for (int i = 0; i < shape.length; i++) {
 			shape[i].draw();
-			
 		}
-
 	}
-
 }
